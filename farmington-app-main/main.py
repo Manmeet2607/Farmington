@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, Markup, redirect
 import numpy as np
 import pandas as pd
-
+import smtplib
 
 from utils.disease import disease_dic
 from utils.fertilizer import fertilizer_dic
